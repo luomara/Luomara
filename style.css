@@ -31,10 +31,7 @@ body {
    -------------------------------------------------- */
 
 .site-header {
-    background:
-    linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(255,255,255,1)),
-    url("banner.png");
-
+    background: url("banner.png");
     background-size: cover;
     background-position: center;
     padding: 40px 20px;
@@ -45,6 +42,7 @@ body {
     text-align: center;
     gap: 15px;
 }
+
 
 /* LOGO + TITLE SIDE BY SIDE */
 .logo-area {
@@ -227,5 +225,6 @@ button:hover {
     padding: 20px;
 
     border-left: 4px solid var(--rose-gold
+
 
 
