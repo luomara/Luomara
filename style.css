@@ -78,7 +78,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--forest);
+    color: white;
     font-weight: bold;
 }
 
@@ -225,6 +225,7 @@ button:hover {
     padding: 20px;
 
     border-left: 4px solid var(--rose-gold
+
 
 
 
