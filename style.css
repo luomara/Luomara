@@ -59,13 +59,13 @@ body {
 
 .business-name h1 {
     font-size: 32px;
-    color: var(--forest);
+    color: white;
     margin-bottom: 3px;
 }
 
 .business-name p {
     font-size: 16px;
-    color: var(--rose-gold);
+    color: white;
 }
 
 /* NAVIGATION UNDER HEADER */
@@ -225,6 +225,7 @@ button:hover {
     padding: 20px;
 
     border-left: 4px solid var(--rose-gold
+
 
 
 
