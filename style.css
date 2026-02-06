@@ -41,31 +41,8 @@ body {
     align-items: center;
     text-align: center;
     gap: 15px;
-
-    /* Needed for floating image layering */
-    position: relative;
-    overflow: hidden;
 }
 
-/* --------------------------------------------------
-   Floating Transparent Image (sits between background + text)
-   -------------------------------------------------- */
-
-.header-floating-image {
-    position: absolute;
-    inset: 0;
-    opacity: 0.25;              /* adjust transparency */
-    z-index: 1;                 /* above background */
-    pointer-events: none;       /* doesn't block clicks */
-    object-fit: contain;        /* or 'cover' depending on your design */
-}
-
-/* Ensure logo + nav sit above the floating image */
-.logo-area,
-nav {
-    position: relative;
-    z-index: 2;
-}
 
 /* LOGO + TITLE SIDE BY SIDE */
 .logo-area {
@@ -246,5 +223,5 @@ button:hover {
 .podiatry-card {
     background: var(--white);
     padding: 20px;
-    border-left: 4px solid var(--rose-gold);
-}
+
+    border-left: 4px solid var(--rose-gold
