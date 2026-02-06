@@ -37,7 +37,7 @@ body {
     padding: 40px 20px;
     border-bottom: 3px solid var(--rose-gold);
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     text-align: center;
     gap: 15px;
@@ -225,6 +225,7 @@ button:hover {
     padding: 20px;
 
     border-left: 4px solid var(--rose-gold
+
 
 
 
