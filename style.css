@@ -1,0 +1,227 @@
+/* --------------------------------------------------
+   Luomara Brand Stylesheet
+   -------------------------------------------------- */
+
+/* Brand Colours */
+:root {
+    --forest: #2e4a3b;
+    --sage: #dfe8e1;
+    --cream: #f7f5ef;
+    --rose-gold: #b8927a;
+    --charcoal: #333;
+    --white: #ffffff;
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", serif;
+}
+
+body {
+    background: var(--cream);
+    color: var(--charcoal);
+    line-height: 1.6;
+}
+
+/* --------------------------------------------------
+   Header (BACKGROUND IMAGE + FADE + BIGGER LOGO)
+   -------------------------------------------------- */
+
+.site-header {
+    background:
+        linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(255,255,255,1)),
+        url("banner.png");
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    border-bottom: 3px solid var(--rose-gold);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+/* LOGO + TITLE SIDE BY SIDE */
+.logo-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 160px;
+}
+
+.business-name h1 {
+    font-size: 32px;
+    color: var(--forest);
+    margin-bottom: 3px;
+}
+
+.business-name p {
+    font-size: 16px;
+    color: var(--rose-gold);
+}
+
+/* NAVIGATION UNDER HEADER */
+nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--forest);
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--rose-gold);
+}
+
+/* --------------------------------------------------
+   Buttons
+   -------------------------------------------------- */
+
+button {
+    background: var(--rose-gold);
+    color: var(--white);
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: var(--forest);
+}
+
+/* --------------------------------------------------
+   Content Sections
+   -------------------------------------------------- */
+
+.content {
+    padding: 40px 20px;
+}
+
+.wide {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* --------------------------------------------------
+   Homepage Split Layout
+   -------------------------------------------------- */
+
+.home-split {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.home-text {
+    flex: 1;
+}
+
+.home-image img {
+    width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .home-split {
+        flex-direction: column;
+    }
+}
+
+/* --------------------------------------------------
+   Services Section (Homepage)
+   -------------------------------------------------- */
+
+.homepage-services {
+    background: var(--sage);
+    padding: 50px 20px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.service-box {
+    background: var(--white);
+    padding: 20px;
+    border-left: 4px solid var(--rose-gold);
+    border-radius: 4px;
+}
+
+/* --------------------------------------------------
+   Pricing Cards
+   -------------------------------------------------- */
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.price-card {
+    background: var(--white);
+    padding: 20px;
+    border-left: 4px solid var(--forest);
+    border-radius: 4px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--rose-gold);
+    margin-bottom: 10px;
+}
+
+/* --------------------------------------------------
+   Team Page
+   -------------------------------------------------- */
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.team-card {
+    background: var(--white);
+    padding: 20px;
+    border-left: 4px solid var(--forest);
+    border-radius: 4px;
+}
+
+/* --------------------------------------------------
+   Podiatry Page
+   -------------------------------------------------- */
+
+.podiatry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.podiatry-card {
+    background: var(--white);
+    padding: 20px;
+    border-left: 4px solid var(--rose-gold
