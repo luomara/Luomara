@@ -54,7 +54,7 @@ body {
 }
 
 .logo {
-    height: 250px;
+    height: 150px;
 }
 
 .business-name h1 {
@@ -225,6 +225,7 @@ button:hover {
     padding: 20px;
 
     border-left: 4px solid var(--rose-gold
+
 
 
 
