@@ -18,11 +18,12 @@
     </div>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="livery.html">Livery Services</a>
-        <a href="meet-a-pony.html">Meet‑a‑Pony</a>
-        <a href="loading-clinic.html">Loading Clinics</a>
-        <a href="behaviour-form.html">Behaviour Disclosure</a>
+        <a href="index.html">Home</a> 
+        <a href="livery.html">Livery Services</a> 
+        <a href="meet-a-pony.html">Meet‑a‑Pony</a> 
+        <a href="loading-clinic.html">Loading Clinics</a> 
+        <a href="meet-the-team.html">Meet the Team</a> 
+        <a href="equine-podiatry.html">Equine Podiatry</a> 
         <a href="contact.html">Contact</a>
     </nav>
 </header>
@@ -31,10 +32,10 @@
     <h2>Horse Behaviour Disclosure Form</h2>
     <p>
         This form must be completed honestly and accurately before your booking can be approved. 
-        The information you provide ensures safety for you, your horse, and the trainer.
+        The information you provide ensures safety for you, your horse(s), and the trainer.
     </p>
 
-    <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST" class="disclosure-form">
+    <form action="https://formsubmit.co/luomara@outlook.com" method="POST" class="disclosure-form">
 
         <h3>Owner Information</h3>
 
@@ -50,47 +51,76 @@
         <label>Address:</label>
         <textarea name="Address" required></textarea>
 
-        <h3>Horse Information</h3>
+        <!-- HORSE 1 -->
+        <h3>Horse 1 Information</h3>
 
         <label>Horse Name:</label>
-        <input type="text" name="Horse Name" required>
+        <input type="text" name="Horse 1 Name" required>
 
         <label>Age:</label>
-        <input type="text" name="Age" required>
+        <input type="text" name="Horse 1 Age" required>
 
         <label>Breed:</label>
-        <input type="text" name="Breed">
+        <input type="text" name="Horse 1 Breed">
 
         <label>Height (hh):</label>
-        <input type="text" name="Height">
+        <input type="text" name="Horse 1 Height">
 
         <label>Sex:</label>
-        <select name="Sex">
+        <select name="Horse 1 Sex">
             <option>Mare</option>
             <option>Gelding</option>
             <option>Stallion</option>
         </select>
 
-        <h3>Behaviour History</h3>
+        <h4>Behaviour History (Horse 1)</h4>
+        <textarea name="Horse 1 Behaviour History" placeholder="Rearing, kicking, bolting, biting, refusing to load, panic, separation anxiety, etc." required></textarea>
 
-        <label>Has your horse ever displayed any of the following?</label>
-        <textarea name="Behaviour History" placeholder="Rearing, kicking, bolting, biting, refusing to load, panic, separation anxiety, etc." required></textarea>
+        <h4>Medical Information (Horse 1)</h4>
+        <textarea name="Horse 1 Medical History" placeholder="Sedation, injuries, ulcers, respiratory issues, lameness, etc." required></textarea>
 
-        <h3>Medical Information</h3>
+        <h4>Known Triggers (Horse 1)</h4>
+        <textarea name="Horse 1 Triggers" placeholder="Noise, pressure, confinement, other horses, etc."></textarea>
 
-        <label>Relevant medical history:</label>
-        <textarea name="Medical History" placeholder="Sedation, injuries, ulcers, respiratory issues, lameness, etc." required></textarea>
+        <!-- HORSE 2 -->
+        <h3>Horse 2 Information (if applicable)</h3>
 
-        <h3>Trigger Information</h3>
+        <label>Horse Name:</label>
+        <input type="text" name="Horse 2 Name">
 
-        <label>Known triggers:</label>
-        <textarea name="Triggers" placeholder="Noise, pressure, confinement, other horses, etc."></textarea>
+        <label>Age:</label>
+        <input type="text" name="Horse 2 Age">
 
+        <label>Breed:</label>
+        <input type="text" name="Horse 2 Breed">
+
+        <label>Height (hh):</label>
+        <input type="text" name="Horse 2 Height">
+
+        <label>Sex:</label>
+        <select name="Horse 2 Sex">
+            <option></option>
+            <option>Mare</option>
+            <option>Gelding</option>
+            <option>Stallion</option>
+        </select>
+
+        <h4>Behaviour History (Horse 2)</h4>
+        <textarea name="Horse 2 Behaviour History" placeholder="Rearing, kicking, bolting, biting, refusing to load, panic, separation anxiety, etc."></textarea>
+
+        <h4>Medical Information (Horse 2)</h4>
+        <textarea name="Horse 2 Medical History" placeholder="Sedation, injuries, ulcers, respiratory issues, lameness, etc."></textarea>
+
+        <h4>Known Triggers (Horse 2)</h4>
+        <textarea name="Horse 2 Triggers" placeholder="Noise, pressure, confinement, other horses, etc."></textarea>
+
+        <!-- TRAILER INFO -->
         <h3>Trailer Information</h3>
 
         <label>Trailer type and condition:</label>
         <textarea name="Trailer Info" placeholder="Make/model, ramp type, flooring, partitions, etc." required></textarea>
 
+        <!-- AGREEMENT -->
         <h3>Agreement</h3>
 
         <label>
@@ -121,3 +151,4 @@
 
 </body>
 </html>
+   
