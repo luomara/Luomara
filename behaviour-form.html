@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horse Behaviour Disclosure Form – Luomara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="logo-area">
+        <img src="logo.png" alt="Luomara Logo" class="logo">
+        <div class="business-name">
+            <h1>Luomara</h1>
+            <p>Grass & Track Livery</p>
+        </div>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="livery.html">Livery Services</a>
+        <a href="meet-a-pony.html">Meet‑a‑Pony</a>
+        <a href="loading-clinic.html">Loading Clinics</a>
+        <a href="behaviour-form.html">Behaviour Disclosure</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="content wide">
+    <h2>Horse Behaviour Disclosure Form</h2>
+    <p>
+        This form must be completed honestly and accurately before your booking can be approved. 
+        The information you provide ensures safety for you, your horse, and the trainer.
+    </p>
+
+    <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST" class="disclosure-form">
+
+        <h3>Owner Information</h3>
+
+        <label>Name:</label>
+        <input type="text" name="Owner Name" required>
+
+        <label>Email:</label>
+        <input type="email" name="Email" required>
+
+        <label>Phone Number:</label>
+        <input type="text" name="Phone" required>
+
+        <label>Address:</label>
+        <textarea name="Address" required></textarea>
+
+        <h3>Horse Information</h3>
+
+        <label>Horse Name:</label>
+        <input type="text" name="Horse Name" required>
+
+        <label>Age:</label>
+        <input type="text" name="Age" required>
+
+        <label>Breed:</label>
+        <input type="text" name="Breed">
+
+        <label>Height (hh):</label>
+        <input type="text" name="Height">
+
+        <label>Sex:</label>
+        <select name="Sex">
+            <option>Mare</option>
+            <option>Gelding</option>
+            <option>Stallion</option>
+        </select>
+
+        <h3>Behaviour History</h3>
+
+        <label>Has your horse ever displayed any of the following?</label>
+        <textarea name="Behaviour History" placeholder="Rearing, kicking, bolting, biting, refusing to load, panic, separation anxiety, etc." required></textarea>
+
+        <h3>Medical Information</h3>
+
+        <label>Relevant medical history:</label>
+        <textarea name="Medical History" placeholder="Sedation, injuries, ulcers, respiratory issues, lameness, etc." required></textarea>
+
+        <h3>Trigger Information</h3>
+
+        <label>Known triggers:</label>
+        <textarea name="Triggers" placeholder="Noise, pressure, confinement, other horses, etc."></textarea>
+
+        <h3>Trailer Information</h3>
+
+        <label>Trailer type and condition:</label>
+        <textarea name="Trailer Info" placeholder="Make/model, ramp type, flooring, partitions, etc." required></textarea>
+
+        <h3>Agreement</h3>
+
+        <label>
+            <input type="checkbox" name="Agreement" required>
+            I confirm that all information provided is accurate and complete.
+        </label>
+
+        <button type="submit">Submit Form</button>
+
+        <!-- FormSubmit settings -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="thank-you.html">
+    </form>
+</section>
+
+<footer class="site-footer">
+    <div class="footer-content">
+        <img src="logo.png" alt="Luomara Logo" class="footer-logo">
+        <div>
+            <h4>Luomara</h4>
+            <p>Grass & Track Livery</p>
+        </div>
+    </div>
+
+    <p class="footer-copy">© 2026 Luomara – Grass & Track Livery</p>
+</footer>
+
+</body>
+</html>
