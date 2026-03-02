@@ -120,17 +120,22 @@
         <label>Trailer type and condition:</label>
         <textarea name="Trailer Info" placeholder="Make/model, ramp type, flooring, partitions, etc." required></textarea>
 
-        <!-- AGREEMENT -->
-        <h3>Agreement</h3>
+       <h3>Agreement</h3>
 
-        <label>
-            <input type="checkbox" name="Agreement" required>
-            I confirm that all information provided is accurate and complete.
-        </label>
-
-    <label> <input type="checkbox" name="Agreement Terms" required>
-        I have read and understood the full Terms & Conditions for this service. 
+<div class="agreement-row">
+    <label>
+        <input type="checkbox" name="Agreement Accuracy" required>
+        I confirm that all information provided is accurate and complete.
     </label>
+</div>
+
+<div class="agreement-row">
+    <label>
+        <input type="checkbox" name="Agreement Terms" required>
+        I have read and understood the full Terms & Conditions for this service.
+    </label>
+</div>
+
 
         <button type="submit">Submit Form</button>
 
